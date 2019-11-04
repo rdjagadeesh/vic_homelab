@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  mq:
+    image: rabbitmq:latest
+    container_name: sample-mq
+    restart: always
+    networks:
+      - web
+
+networks:
+  web:
+    external:
+      name: public
