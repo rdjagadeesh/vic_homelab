@@ -11,4 +11,4 @@ services:
 networks:
   web:
     external:
-      name: public
+      name: bridge
