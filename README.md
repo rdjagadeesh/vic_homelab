@@ -1,0 +1,2 @@
+# vic_homelab
+SAMPLE EXCERCISES FOR BEGINEERS 
