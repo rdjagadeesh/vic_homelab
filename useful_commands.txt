@@ -1,0 +1,26 @@
+
+how to connect to VCH: 
+
+run below commands on your MAC terminal or from your docker cli interface 
+
+export DOCKER_HOST=10.12.1.2:2376
+export COMPOSE_TLS_VERSION=TLSv1_2
+
+
+Spin up a quick container on your VCH: 
+
+docker --tls run --name nginx -d -p 8080:80 vmwarecna/nginx:latest
+
+
+
+IF YOU WANT TO LIST ALL RUNNING VCH IN YOUR VCENTER: 
+
+.\vic-machine-windows.exe ls --target homelabvc01.vsphere.local/VIC_COMPUTE_CLUSTER --user administrator@vsphere.local --thumbprint 09:21:29:EF:0G:DE:78:9D:FG:89:DF:8F:89:3S:89:0A:FF:67:ZX --password 'VMware@12345'
+
+IF YOU WANT TO ENABLE DEBUG MODE OF A CONTAINER 
+
+.\vic-machine-windows.exe debug --target homelabvc01.vsphere.local/VIC_COMPUTE_CLUSTER --user administrator@vsphere.local --thumbprint 09:21:29:EF:0G:DE:78:9D:FG:89:DF:8F:89:3S:89:0A:FF:67:ZX --password 'VMware@12345' --id vm-89467 --enable-ssh --rootpw VMware123!
+
+TO SSH TO A CONTAINER 
+
+docker run -it exec homelabvc01.vsphere.local/vicdemo/busybox  # Where vicdemo is a name of your container 
