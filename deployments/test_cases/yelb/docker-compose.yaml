@@ -1,4 +1,5 @@
-# use this with `docker-compose up` against a generic Docker end-point (e.g. standalone Docker)
+
+
 version: "2.1"
 services:
   yelb-ui:
@@ -38,7 +39,7 @@ networks:
   yelb-network:
     external: 
       name: public
-   #  driver: external # a user defined bridge is required; the default bridge network doesn't support name resolution
+       driver: external # a user defined bridge is required; the default bridge network doesn't support name resolution
 
 # uncomment the following lines if you want to persist redis/postgres data across deployments
 #volumes:
