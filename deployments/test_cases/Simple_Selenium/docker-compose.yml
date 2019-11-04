@@ -31,3 +31,5 @@ services:
       - "hub"
     expose:
       - "5555"
+      
+      
