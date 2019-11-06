@@ -20,7 +20,9 @@ Our setup details :
   Container network PG - Created 
 5. VIC 1.5.4 ( latetst available) 
 6. Deploy VIC host using following command: 
+
       create 
+      
         --target homelabvc01.vsphere.local/VIC_COMPUTE_CLUSTER 
         --user 'administrator@vsphere.local' 
         --password 'VMware@12345' 
@@ -41,6 +43,7 @@ Our setup details :
         --volume-store DATASTORE_VSAN/volumes:default 
         --thumbprint 09:21:29:EF:0G:DE:78:9D:FG:89:DF:8F:89:3S:89:0A:FF:67:ZX 
         --name MyFirstVCH
+        
         
 7. Once you run the above command you should get a message
     
