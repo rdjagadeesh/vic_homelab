@@ -7,7 +7,7 @@
 
 SAMPLE EXCERCISES FOR BEGINEERS 
 
-In this repository we are going to have working examples with different scenarios :
+In this thread we will have working examples with different scenarios :
 
 Our setup details : 
 
@@ -18,8 +18,8 @@ Our setup details :
   Bridge network PG - created
   Management network PG - Created 
   Container network PG - Created 
- 5. VIC 1.5.4 ( latetst available) 
- 6. Deploy VIC host using following command: 
+5. VIC 1.5.4 ( latetst available) 
+6. Deploy VIC host using following command: 
       create 
         --target homelabvc01.vsphere.local/VIC_COMPUTE_CLUSTER 
         --user 'administrator@vsphere.local' 
@@ -42,7 +42,7 @@ Our setup details :
         --thumbprint 09:21:29:EF:0G:DE:78:9D:FG:89:DF:8F:89:3S:89:0A:FF:67:ZX 
         --name MyFirstVCH
         
-    7. Once you run the above command you should get a message
+7. Once you run the above command you should get a message
     
           msg="Initialization of appliance successful"
           msg="VCH ID: vm-89467"
@@ -61,7 +61,8 @@ Our setup details :
           msg="docker -H 10.12.1.2:2376 --tls info"
           msg="Installer completed successfully"
 
-    8. Use any of the docker client to connect to the doker host ( DOCKER_HOST=10.12.1.2:2376) and follow the scripts in the repository 
+8. Use any of the docker client to connect to the doker host ( DOCKER_HOST=10.12.1.2:2376) and follow the scripts in the repository 
+
 
 Please leave a comment/feedback/suggestions 
 
