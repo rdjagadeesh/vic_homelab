@@ -1,7 +1,7 @@
 
-XaaS blueprint in vRealize Automation to create a fast self-service offering of Virtual Container Hosts.
 
+This is a XaaS workflow to deploy a VCH though a vRelize Automation portal. Download the zip file and extract it to upload in the vRO server. 
 
-For the list of steps and tutorial please take a look at this blog post: 
+Follow the instructions to Import, configure the workflow and deploy the VCH in the below link 
 
 
